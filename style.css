@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif !important;
+    color: black ;
+    text-decoration: none;
+}
+
+/* span{
+    margin-right: 19px;
+    font: bold 20px 'Open Sans', sans-serif !important;
+} */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-container{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-container .logo{
+    margin-right: 19px;
+    font: bold 20px 'Open Sans', sans-serif !important;
+}
+
+.nav-container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{
+    font-weight: 500;
+}
+
+.nav-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btns .nav-sign-up-btn {
+    background-color: rgb(164, 164, 164);
+    padding: 11px;
+    border-radius: 11px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url(butter-hero.png);
+    background-size: cover;
+    background-position: center; 
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.hero-container h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.hero-container p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 600px;
+}
+
+.hero-container .hero-btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-btns .hero-sign-up-google-btn{
+    background-color: #111;
+    padding: 12px;
+    width: 195px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-btns .hero-sign-up-btn{
+    background-color: #fff;
+    padding: 12px;
+    width: 138px;
+    color: black;
+    font-weight: 500;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    border-top: 1px solid #111;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-color: #fff;
+}
+
+footer .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    width: 85%;
+    margin: auto;
+    gap: 2rem;
+}
+
+footer .col-1, footer .col-2, footer .col-3, footer .col-4{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer span{
+    font: bold 18px 'Open Sans', sans-serif !important;
+}
+
+footer .col-1 span,
+footer .col-2 span,
+footer .col-3 span,
+footer .col-4 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 4px;
+}
+
+.copyright{
+    border-top: 2px solid rgb(164, 164, 164);
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
