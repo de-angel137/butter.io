@@ -117,3 +117,9 @@ a{
     font-weight: 600;
     text-decoration: underline;
 }
+
+.bth-footer-link{
+    color: #111;
+    text-decoration: underline;
+    font-size: 17px;
+}
