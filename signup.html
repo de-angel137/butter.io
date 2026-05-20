@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | butter.io</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+
+  <body>
+    <form class="container">
+      <div class="sign-up-container">
+        <h2 class="form-heading">Create Account</h2>
+
+        <div class="input-wrapper">
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            class="input-field"
+            required
+          />
+          <label for="fullname">Full Name</label>
+        </div>
+
+        <div class="input-wrapper">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="input-field"
+            required
+          />
+          <label for="username">Username</label>
+        </div>
+
+        <div class="input-wrapper">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="input-field"
+            required
+          />
+          <label for="email">Email</label>
+        </div>
+
+        <div class="input-wrapper">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="input-field"
+            required
+          />
+          <label for="password">Password</label>
+        </div>
+
+        <div class="input-wrapper">
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            class="input-field"
+            required
+          />
+          <label for="confirm-password">Confirm Password</label>
+        </div>
+
+        <div class="links-wrapper-container">
+          <div class="links-wrapper">
+            <span class="remember-me-field">
+              <input type="checkbox" name="terms" id="terms" required />
+              <label for="terms"> I agree to the Terms & Conditions </label>
+            </span>
+
+            <span class="signup-link">
+              Already have an account?
+              <a href="signin.html">Sign In</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="submit-btn-wrapper">
+          <button type="submit" class="btn submit-btn">Sign Up</button>
+        </div>
+      </div>
+
+      <a href="index.html" class="bth-footer-link">Back to Home</a>
+    </form>
+  </body>
+</html>
