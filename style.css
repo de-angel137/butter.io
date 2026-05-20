@@ -171,3 +171,66 @@ footer ul{
     margin: 0 auto;
     text-align: center;
 }
+
+/* ===== RESPONSIVE DESIGN ONLY ===== */
+
+/* TABLET */
+@media (max-width: 900px) {
+  nav {
+    padding: 15px 20px;
+  }
+
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-container ul {
+    display: none; /* hides menu on small screens */
+  }
+
+  .nav-btns {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    padding: 40px 15px;
+  }
+
+  .hero-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* SMALL PHONES */
+@media (max-width: 400px) {
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .nav-btns a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
