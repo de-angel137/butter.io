@@ -119,6 +119,8 @@ a{
 }
 
 .bth-footer-link{
+    text-align: center;
+    padding: 10px;
     color: #111;
     text-decoration: underline;
     font-size: 17px;
