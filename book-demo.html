@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Demo | butter.io</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      body {
+        background: #f5f5f5;
+      }
+
+      .demo-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .demo-box {
+        /* width: 100%;
+        width: 500px; */
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 12px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      }
+
+      .demo-box h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+      }
+
+      .input-group {
+        margin-bottom: 15px;
+      }
+
+      .input-group label {
+        display: flex;
+        gap: 2rem;
+        font-size: 14px;
+        color: #333;
+      }
+
+      .input-group input,
+      .input-group textarea {
+        width: 450px;
+        padding: 13px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        outline: none;
+        font-size: 14px;
+      }
+
+      .input-group textarea {
+        resize: none;
+        height: 120px;
+      }
+
+      .demo-btn {
+        width: 100%;
+        padding: 12px;
+        background: #111;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: 0.3s ease;
+      }
+
+      .demo-btn:hover {
+        transform: scale(1.03);
+      }
+
+      .back-link {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        color: #111;
+        text-decoration: underline;
+        font-size: 14px;
+      }
+
+      @media (max-width: 500px) {
+        .demo-box {
+          padding: 20px;
+        }
+
+        .demo-box h1 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="demo-container">
+      <div class="demo-box">
+        <h1>Book a Demo</h1>
+
+        <form>
+          <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required />
+          </div>
+
+          <div class="input-group">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required />
+          </div>
+
+          <div class="input-group">
+            <label>Company</label>
+            <input type="text" placeholder="Your company name" />
+          </div>
+
+          <div class="input-group">
+            <label>Message</label>
+            <textarea placeholder="Tell us what you need..."></textarea>
+          </div>
+
+          <button class="demo-btn" type="submit">Request Demo</button>
+        </form>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+      </div>
+    </div>
+  </body>
+</html>
