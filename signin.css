@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   height: 100vh;
+}
+
+.sign-in-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 25px 30px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-wrapper label{
+    position: absolute;
+    left: 16.5px;
+    font-size: 17px;
+    top: 18px;
+    transition: all .4s ease-in-out;
+}
+
+.input-field{
+    padding: 13px;
+    width: 300px;
+    height: 30px;
+}
+
+.input-field:focus ~ label, 
+.input-field:valid label{
+    position: absolute;
+    font-size: 13px;
+    top: -10px;
+    left: 20px;
+    background-color: black;
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 4px;
+}
+
+.submit-btn-wrapper{
+    display: flex;
+}
+
+.submit-btn {
+    padding: 11px;
+    border-radius: 8px;
+    width: 150px;
+    background-color: #111;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:hover{
+    transform: scale(1.08);
+}
+
+.submit-btn:active{
+    transform: scale(1);
+}
+
+.links-wrapper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}   
+
+.links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 2% 5px;
+}
+
+.remember-me-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+.signup-link {
+    font-size: 14px;
+    color: #111;
+}
+
+.signup-link a{
+    color: #111;
+    font-weight: 600;
+    text-decoration: underline;
+}
