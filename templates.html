@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Templates | butter.io</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #fafafa;
+        color: #333;
+      }
+      .template-section {
+        max-width: 1100px;
+        margin: 4rem auto;
+        padding: 0 2rem;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+      .preview-box {
+        background: #fff;
+        border: 1px solid #eaeaea;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .mock-image {
+        height: 180px;
+        background: #e9ecef;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #6c757d;
+        font-weight: bold;
+      }
+      .preview-info {
+        padding: 1.5rem;
+      }
+      .preview-info h3 {
+        margin: 0 0 0.5rem 0;
+      }
+      .btn {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background: #0056b3;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="template-section">
+      <div class="header">
+        <h1>Pre-built Layout Templates</h1>
+        <p>
+          Kickstart your next landing page or application panel with our
+          responsive frameworks.
+        </p>
+      </div>
+
+      <div class="grid">
+        <div class="preview-box">
+          <div class="mock-image">SaaS Landing Page</div>
+          <div class="preview-info">
+            <h3>Smooth Landing</h3>
+            <p>
+              A clean, optimization-driven homepage built to convert random
+              visitors into subscribers.
+            </p>
+            <a href="#" class="btn">Use Template</a>
+          </div>
+        </div>
+        <div class="preview-box">
+          <div class="mock-image">Admin Console</div>
+          <div class="preview-info">
+            <h3>Dark Dashboard</h3>
+            <p>
+              A dark-mode-first administrative theme packed with custom
+              analytical blocks and sidebar controls.
+            </p>
+            <a href="#" class="btn">Use Template</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
